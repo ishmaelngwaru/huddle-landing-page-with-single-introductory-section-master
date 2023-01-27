@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+:root{
+    --hearding:'Open Sans', sans-serif;
+    --paragraphs:'Poppins', sans-serif;
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--Violet);
+    overflow:hidden;
+}
+
+.desktopSvg{
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 99.2vh;
+    position: relative;
+}
+
+.imageLogo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    padding-left: 20px;
+    /*height: 250px;
+    width: 250px;*/
+}
+.illst-img{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 750px;
+    height: 460px;
+    padding-left: 20px;
+}
+.h1-1{
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+.h1-2{
+    position: absolute;
+    top: 210px;
+    right: 230px;
+}
+h1{
+    color: aliceblue;
+    font-family: var(--hearding);
+    font-size: 2.4rem;
+}
+p{
+    position: absolute;
+    top: 290px;
+    right: 160px;
+    color:darkgray;
+    font-family: var(--paragraphs);
+    font-size: 0.8rem; 
+}
+button{
+    position: absolute;
+    top: 400px;
+    right: 410px;
+    background-color: aliceblue;
+    height: 50px;
+    width: 150px;
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: var(--paragraphs);
+    color:darkgray;
+    cursor: pointer;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.socialLogos{
+    position: relative;
+    bottom: 70px;
+    left: 1100px;;
+    width: 37px;
+    height: 37px;
+    z-index: 1;
+    color: aliceblue;
+    padding-top: 10px;
+    overflow:hidden;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    fill: aliceblue;
+    padding: 5px;
+}
+
+button:hover{
+    color:aliceblue;
+    background-color: var(--SoftMagenta);
+    border-color: var(--SoftMagenta);
+    box-shadow:  7px 7px 14px #0a0a0a;
+    transition: 1s; 
+}
+.socialLogos:hover{
+    border-color: var(--SoftMagenta);
+    box-shadow:  7px 7px 14px #0a0a0a;
+    transition: 1s;
+    fill: var(--SoftMagenta);
+}
+/* responsive designs start here*/
+/*extra large devices*/
+@media only screen and (min-width: 1101px) and (max-width:1150px){
+    .imageLogo{
+        padding-top: 0px;
+        width: 200px;
+        height: 200px; 
+     }
+     .illst-img{
+         width: 650px;
+         height: 450px;
+     }
+     h1{
+         font-size: 1.9rem;
+     }
+     .h1-1{
+         position: absolute;
+         top: 150px;
+         right: 110px;
+     }
+     .h1-2{
+         position: absolute;
+         top: 210px;
+         right: 140px;
+     }
+     p{
+         right: 70px;
+         color:darkgray;
+         font-family: var(--paragraphs);
+         font-size: 0.7rem; 
+     }
+     button{
+         right: 250px;
+     }
+     .socialLogos{
+         bottom: 100px;
+         position: relative;
+         bottom: 70px;
+         left: 800px;
+         width: 37px;
+         height: 37px;
+         z-index: 1;
+         color: aliceblue;
+         padding-top: 10px;
+         overflow:hidden;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         cursor: pointer;
+         fill: aliceblue;
+         padding: 5px;
+     }
+}
+@media only screen and (min-width: 1151px) and (max-width:1200px){
+    .imageLogo{
+        padding-top: 0px;
+        width: 200px;
+        height: 200px; 
+     }
+     .illst-img{
+         width: 720px;
+         height: 450px;
+     }
+     h1{
+         font-size: 1.9rem;
+     }
+     .h1-1{
+         position: absolute;
+         top: 150px;
+         right: 110px;
+     }
+     .h1-2{
+         position: absolute;
+         top: 210px;
+         right: 140px;
+     }
+     p{
+         right: 70px;
+         color:darkgray;
+         font-family: var(--paragraphs);
+         font-size: 0.7rem; 
+     }
+     button{
+         right: 250px;
+     }
+     .socialLogos{
+         bottom: 100px;
+         position: relative;
+         bottom: 70px;
+         left: 800px;
+         width: 37px;
+         height: 37px;
+         z-index: 1;
+         color: aliceblue;
+         padding-top: 10px;
+         overflow:hidden;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         cursor: pointer;
+         fill: aliceblue;
+         padding: 5px;
+     }
+
+}
+@media only screen and (min-width: 1201px) and (max-width:1300px){
+    .imageLogo{
+        padding-top: 0px;
+        width: 200px;
+        height: 200px; 
+     }
+     .illst-img{
+         width: 720px;
+         height: 450px;
+     }
+     h1{
+         font-size: 1.9rem;
+     }
+     .h1-1{
+         position: absolute;
+         top: 150px;
+         right: 110px;
+     }
+     .h1-2{
+         position: absolute;
+         top: 210px;
+         right: 140px;
+     }
+     p{
+         right: 70px;
+         color:darkgray;
+         font-family: var(--paragraphs);
+         font-size: 0.7rem; 
+     }
+     button{
+         right: 250px;
+     }
+     .socialLogos{
+         bottom: 100px;
+         position: relative;
+         bottom: 70px;
+         left: 800px;
+         width: 37px;
+         height: 37px;
+         z-index: 1;
+         color: aliceblue;
+         padding-top: 10px;
+         overflow:hidden;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         cursor: pointer;
+         fill: aliceblue;
+         padding: 5px;
+     }
+
+
+}
+/*large devices like laptops*/
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+    .imageLogo{
+       padding-top: 0px;
+       width: 200px;
+       height: 200px; 
+    }
+    .illst-img{
+        width: 550px;
+        height: 450px;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    .h1-1{
+        position: absolute;
+        top: 150px;
+        right: 110px;
+    }
+    .h1-2{
+        position: absolute;
+        top: 210px;
+        right: 140px;
+    }
+    p{
+        right: 70px;
+        color:darkgray;
+        font-family: var(--paragraphs);
+        font-size: 0.7rem; 
+    }
+    button{
+        right: 250px;
+    }
+    .socialLogos{
+        bottom: 100px;
+        position: relative;
+        bottom: 70px;
+        left: 700px;
+        width: 37px;
+        height: 37px;
+        z-index: 1;
+        color: aliceblue;
+        padding-top: 10px;
+        overflow:hidden;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        cursor: pointer;
+        fill: aliceblue;
+        padding: 5px;
+    }
+}
+
+
+
+
+/*medium phones*/
+@media only screen and (min-width: 768px) and (max-width: 830px){
+    .imageLogo{
+        padding-top: 0px;
+        width: 200px;
+        height: 200px; 
+     }
+     .illst-img{
+         width: 420px;
+         height: 350px;
+     }
+     h1{
+         font-size: 1.6rem;
+     }
+     .h1-1{
+         position: absolute;
+         top: 150px;
+         right: 50px;
+     }
+     .h1-2{
+         position: absolute;
+         top: 210px;
+         right: 75px;
+     }
+     p{
+         right: 30px;
+         color:darkgray;
+         font-family: var(--paragraphs);
+         font-size: 0.61rem; 
+     }
+     button{
+         right: 150px;
+     }
+     .socialLogos{
+         bottom: 100px;
+         position: relative;
+         bottom: 70px;
+         left: 500px;
+         width: 37px;
+         height: 37px;
+         z-index: 1;
+         color: aliceblue;
+         padding-top: 10px;
+         overflow:hidden;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         cursor: pointer;
+         fill: aliceblue;
+         padding: 5px;
+     }
+
+}
+@media only screen and (min-width: 831px) and (max-width: 900px){
+        .imageLogo{
+            padding-top: 0px;
+            width: 200px;
+            height: 200px; 
+         }
+         .illst-img{
+             width: 490px;
+             height: 450px;
+         }
+         h1{
+             font-size: 1.9rem;
+         }
+         .h1-1{
+             position: absolute;
+             top: 150px;
+             right: 50px;
+         }
+         .h1-2{
+             position: absolute;
+             top: 210px;
+             right: 75px;
+         }
+         p{
+             right: 30px;
+             color:darkgray;
+             font-family: var(--paragraphs);
+             font-size: 0.61rem; 
+         }
+         button{
+             right: 180px;
+         }
+         .socialLogos{
+             bottom: 100px;
+             position: relative;
+             bottom: 70px;
+             left: 600px;
+             width: 37px;
+             height: 37px;
+             z-index: 1;
+             color: aliceblue;
+             padding-top: 10px;
+             overflow:hidden;
+             border-radius: 50%;
+             border: 1px solid #fff;
+             cursor: pointer;
+             fill: aliceblue;
+             padding: 5px;
+         }
+}
+@media only screen and (min-width: 901px) and (max-width: 991px){
+    .imageLogo{
+        padding-top: 0px;
+        width: 200px;
+        height: 200px; 
+     }
+     .illst-img{
+         width: 550px;
+         height: 450px;
+     }
+     h1{
+         font-size: 1.9rem;
+     }
+     .h1-1{
+         position: absolute;
+         top: 150px;
+         right: 50px;
+     }
+     .h1-2{
+         position: absolute;
+         top: 210px;
+         right: 75px;
+     }
+     p{
+         right: 30px;
+         color:darkgray;
+         font-family: var(--paragraphs);
+         font-size: 0.61rem; 
+     }
+     button{
+         right: 180px;
+     }
+     .socialLogos{
+         bottom: 100px;
+         position: relative;
+         bottom: 70px;
+         left: 600px;
+         width: 37px;
+         height: 37px;
+         z-index: 1;
+         color: aliceblue;
+         padding-top: 10px;
+         overflow:hidden;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         cursor: pointer;
+         fill: aliceblue;
+         padding: 5px;
+     }
+}
+
+
+
+
+/*small devices */
+@media only screen and (min-width: 600px) and (max-width: 767px)
+{       
+        .imageLogo{
+            padding-top: 0px;
+            width: 200px;
+            height: 200px; 
+         }
+         .illst-img{
+             width: 190px;
+             height: 150px;
+             position: absolute;
+             top: 150px;
+             left: 200px;
+         }
+         h1{
+             font-size: 1.6rem;
+         }
+         .h1-1{
+             position: absolute;
+             top: 330px;
+             right: 180px;
+         }
+         .h1-2{
+             position: absolute;
+             top: 370px;
+             right: 196px;
+         }
+         p{
+             right: 30px;
+             color:darkgray;
+             font-family: var(--paragraphs);
+             font-size: 0.7rem; 
+             position: absolute;
+             top: 450px;
+             right: 110px;
+         }
+         button{
+             right: 200px;
+             top: 530px;
+             width: 200px;
+         }
+         .socialLogos{
+             bottom: 100px;
+             position: relative;
+             bottom: 40px;
+             left: 200px;
+             width: 27px;
+             height: 27px;
+             z-index: 1;
+             color: aliceblue;
+             padding-top: 10px;
+             overflow:hidden;
+             border-radius: 50%;
+             border: 1px solid #fff;
+             cursor: pointer;
+             fill: aliceblue;
+             padding: 5px;
+         }
+}
+/*extra small devices*/
+@media only screen and (max-width: 600px)
+{
+    .imageLogo{
+        padding-top: 0px;
+        width: 200px;
+        height: 200px; 
+     }
+     .illst-img{
+         width: 190px;
+         height: 150px;
+         position: absolute;
+         top: 150px;
+         left: 200px;
+     }
+     h1{
+         font-size: 1.6rem;
+     }
+     .h1-1{
+         position: absolute;
+         top: 330px;
+         right: 180px;
+     }
+     .h1-2{
+         position: absolute;
+         top: 370px;
+         right: 196px;
+     }
+     p{
+         right: 30px;
+         color:darkgray;
+         font-family: var(--paragraphs);
+         font-size: 0.7rem; 
+         position: absolute;
+         top: 450px;
+         right: 110px;
+     }
+     button{
+         right: 200px;
+         top: 530px;
+         width: 200px;
+     }
+     .socialLogos{
+         bottom: 100px;
+         position: relative;
+         bottom: 40px;
+         left: 200px;
+         width: 27px;
+         height: 27px;
+         z-index: 1;
+         color: aliceblue;
+         padding-top: 10px;
+         overflow:hidden;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         cursor: pointer;
+         fill: aliceblue;
+         padding: 5px;
+     }
+}
+
